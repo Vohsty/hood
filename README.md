@@ -1,18 +1,15 @@
-SGRAM
+AWWWARDS
 ===================
 ## Description
-Sgram is a web application that has pictures for users to view. It is a clone of popular photo sharing service instagram with a personal touch.
+Awwards is a web application that allows users to share their projects and have them reviewed. The best projects are displayed for users to see.
 
 ------------------------------------------------------------------------
 
-
 ## Features
 
-+ [x] Photos feed with pictures recently added.
-+ [x] Liking of images.
-+ [x] Commenting on images.
-+ [x] Following users.
-+ [x] Viewing user profiles: Profile picture and bio
++ [x] Posting projects to be reviewed.
++ [x] Voting on projects.
++ [x] Ranking of projects.
 + [x] User authentication system: login and sign up.
 + [x] Django admin dashboard for site management.
 
@@ -21,13 +18,13 @@ Sgram is a web application that has pictures for users to view. It is a clone of
 ## Getting started
 
 ### Requirements
-This project was created on a ubuntu linux platform but should work on other unix based[not limited to] sytems.
+This project was created on a Ubuntu linux platform but should work on other unix based[not limited to] sytems.
 * Tested on Ubuntu Linux
 * Python3
 
 ### Cloning the repository
 ```bash
-git clone https://github.com/Vohsty/sgram.git && cd sgram
+git clone https://github.com/Vohsty/Awaards.git&& cd insta-clonewars
 ```
 
 ### Creating a virtual environment
@@ -77,7 +74,7 @@ python manage.py test
 ## Live Demo
 
 The web app can be accessed from the following link:
-[Sgram]
+
 
 
 ## Technology used
@@ -90,21 +87,19 @@ The web app can be accessed from the following link:
 
 | Behaviour |  Sample Input | Sample Output |
 | :---------------- | :---------------: | :------------------ |
-| View Images | On sign in | All images displayed |
-| View User profile | Click on User you want to view | User profile info displayed |
-| Upload image | Submit new image upload form| Image uploaded, view on feed|
-| Like image | Click like button | Number of likes on image increases|
-| Comment on image | Submit comment | Comment recorded under image page|
+| View Projects | On sign in | All projects displayed |
+| Search for projects| Submit search form | All forms meeting the criteria are displayed|
+| Post new project | Submit new project upload form| Project uploaded, view on feed|
+| Rate a project | Post ratings | Ratings updated|
 
 
 
 ## Contributing
 
-- Git clone [https://github.com/Vohsty/sgram.git](https://github.com/Vohsty/sgram.git)
+- Git clone [https://github.com/Vohsty/Awaards.git](https://github.com/Vohsty/Awaards.git)
 - Make the changes.
 - Write your tests.
 - If everything is OK. push your changes and make a pull request.
 
 ## License ([MIT License](http://choosealicense.com/licenses/mit/))
-This project is licensed under the MIT Open Source license, (c) [Steve Kimanthi](https://github.com/Vohsty/)
-
+This project is licensed under the MIT Open Source license, (c) [Steve Kimanthi](https://github.com/Vohsty.git)
