@@ -1,7 +1,7 @@
 HOOD
 ===================
 ## Description
-Loop is a web application that allows users to keep in touch wiyh everything going on in the neighbourhood. Members can post incidents in their respective neighbourhoods, get security information, as wee as business info.
+Hood is a web application that allows users to keep in touch wiyh everything going on in the neighbourhood. Members can post incidents in their respective neighbourhoods, get security information, as wee as business info.
 
 ------------------------------------------------------------------------
 
