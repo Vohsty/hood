@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="container-fluid">
+  <br>
+<div class="card card-cascade wider reverse bg-dark text-white">
+
+  <div class="card-body card-body-cascade text-center">
+    <h4 class="card-title"><strong>Welcome Home</strong></h4>
+    <p class="card-text">Scroll down for all the latest news in the neighbourhood.
+    </p>
+    <a class="btn btn-primary" href="{% url 'notifications'%}"><i class="fas fa-clone left"></i>Latest</a>
+  </div>
+  <div class="view view-cascade overlay">
+    <img class="card-img-top" src="http://moseleywatch.co.za/wp-content/uploads/2018/03/Neighbourhood-page.jpg" alt="Card image cap">
+    <a href="{% url 'notifications'%}">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card card-image" style="background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/01/21/scottishpolice.jpg);">
+
+      <div class="text-white text-center align-items-center rgba-black-strong py-5 px-4">
+        <div>
+          <h3 class="blue-text"><i class="fas fa-chart-pie"></i>Authorities</h3>
+          <a class="btn btn-blue" href="{% url 'authorities'%}"><i class="fas fa-clone left"></i>Go</a>
+        </div>
+      </div>
+
+    </div>
+    <br>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-image" style="background-image: url(https://patientengagementhit.com/images/site/article_headers/_normal/2017-12-12-patient-care.png);">
+
+      <div class="text-white text-center align-items-center rgba-black-strong py-5 px-4">
+        <div>
+          <h3 class="red-text"><i class="fas fa-chart-pie"></i>Health</h3>
+          <a class="btn btn-danger" href="{% url 'health'%}"><i class="fas fa-clone left"></i>Go</a>
+        </div>
+      </div>
+
+    </div>
+    <br>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-image" style="background-image: url(https://www.ionos.ca/digitalguide/fileadmin/DigitalGuide/Teaser/ebusiness.jpg);">
+
+      <div class="text-white text-center align-items-center rgba-black-strong py-5 px-4">
+        <div>
+          <h3 class="green-text"><i class="fas fa-chart-pie"></i>Businesses</h3>
+          <a class="btn btn-success" href="{% url 'businesses'%}"><i class="fas fa-clone left"></i>Go</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+{% endblock %}

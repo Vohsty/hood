@@ -1,15 +1,16 @@
-AWWWARDS
+LOOP
 ===================
 ## Description
-Awwards is a web application that allows users to share their projects and have them reviewed. The best projects are displayed for users to see.
+Loop is a web application that allows users to keep in touch wiyh everything going on in the neighbourhood. Members can post incidents in their respective neighbourhoods, get security information, as wee as business info.
 
 ------------------------------------------------------------------------
 
 ## Features
 
-+ [x] Posting projects to be reviewed.
-+ [x] Voting on projects.
-+ [x] Ranking of projects.
++ [x] Posting incidents that have occurred in the neeighbourhood.
++ [x] Grouping users in respective neighbourhoods.
++ [x] Business and service providers can be advertised.
++ [x] users can switch neighbourhoods when they move out.
 + [x] User authentication system: login and sign up.
 + [x] Django admin dashboard for site management.
 
@@ -18,13 +19,13 @@ Awwards is a web application that allows users to share their projects and have 
 ## Getting started
 
 ### Requirements
-This project was created on a Ubuntu linux platform but should work on other unix based[not limited to] sytems.
-* Tested on Ubuntu Linux
+This project was created on a debian linux platform but should work on other unix based[not limited to] sytems.
+* Tested on Debian Linux
 * Python3
 
 ### Cloning the repository
 ```bash
-git clone https://github.com/Vohsty/Awaards.git&& cd insta-clonewars
+git clone https://github.com/IJaccojwang/loop.git && cd loop
 ```
 
 ### Creating a virtual environment
@@ -74,7 +75,7 @@ python manage.py test
 ## Live Demo
 
 The web app can be accessed from the following link:
-
+[Loop](https://ijloop.herokuapp.com/)
 
 
 ## Technology used
@@ -87,19 +88,20 @@ The web app can be accessed from the following link:
 
 | Behaviour |  Sample Input | Sample Output |
 | :---------------- | :---------------: | :------------------ |
-| View Projects | On sign in | All projects displayed |
-| Search for projects| Submit search form | All forms meeting the criteria are displayed|
-| Post new project | Submit new project upload form| Project uploaded, view on feed|
-| Rate a project | Post ratings | Ratings updated|
+| Join a neighbourhood| On sign up | You are added to the neighbourhood you select |
+| View Neighbourhood posts| On login | All posts displayed |
+| Search businesses| Submit search form | All businesses meeting the criteria are displayed|
+| Post new incident | Submit newincident/announcement form| Post uploaded, view on feed|
+| Leave a neighbourhood | Move out form | User moved to different neighbourhood|
 
 
 
 ## Contributing
 
-- Git clone [https://github.com/Vohsty/Awaards.git](https://github.com/Vohsty/Awaards.git)
+- Git clone [https://github.com/IJaccojwang/loop.git](https://github.com/IJaccojwang/loop.git)
 - Make the changes.
 - Write your tests.
 - If everything is OK. push your changes and make a pull request.
 
 ## License ([MIT License](http://choosealicense.com/licenses/mit/))
-This project is licensed under the MIT Open Source license, (c) [Steve Kimanthi](https://github.com/Vohsty.git)
+This project is licensed under the MIT Open Source license, (c) [Ian Jaccojwang](https://github.com/IJaccojwang)
