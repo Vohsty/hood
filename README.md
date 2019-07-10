@@ -1,4 +1,4 @@
-LOOP
+HOOD
 ===================
 ## Description
 Loop is a web application that allows users to keep in touch wiyh everything going on in the neighbourhood. Members can post incidents in their respective neighbourhoods, get security information, as wee as business info.
@@ -25,7 +25,7 @@ This project was created on a debian linux platform but should work on other uni
 
 ### Cloning the repository
 ```bash
-git clone https://github.com/IJaccojwang/loop.git && cd loop
+git clone https://github.com/Vohsty/hood.git && cd hood
 ```
 
 ### Creating a virtual environment
@@ -75,7 +75,7 @@ python manage.py test
 ## Live Demo
 
 The web app can be accessed from the following link:
-[Loop](https://ijloop.herokuapp.com/)
+
 
 
 ## Technology used
@@ -98,10 +98,10 @@ The web app can be accessed from the following link:
 
 ## Contributing
 
-- Git clone [https://github.com/IJaccojwang/loop.git](https://github.com/IJaccojwang/loop.git)
+- Git clone [https://github.com/Vohsty/hood.git](https://github.com/Vohsty/hood.git)
 - Make the changes.
 - Write your tests.
 - If everything is OK. push your changes and make a pull request.
 
 ## License ([MIT License](http://choosealicense.com/licenses/mit/))
-This project is licensed under the MIT Open Source license, (c) [Ian Jaccojwang](https://github.com/IJaccojwang)
+This project is licensed under the MIT Open Source license, (c) [Steve Kimanthi](https://github.com/Vohsty/)
